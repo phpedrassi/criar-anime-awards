@@ -150,7 +150,7 @@ const Animes = () => {
           <AnimeFicha key={i} jap={item.title} ing={item.title_english} img={item.images?.webp.image_url} />
         ))}
       </div>
-      <div id='fim'><p>Fim da Fila</p></div>
+      <div id='fim'><p> </p></div>
 
     </div>
   )
