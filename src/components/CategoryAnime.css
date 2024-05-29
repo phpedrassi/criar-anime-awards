@@ -1,0 +1,125 @@
+.cat-anime-ficha {
+    width: 11.813rem;
+    /* margin: 0 40px; */
+}
+
+
+
+.cat-anime-ficha-title {
+    margin: 0.9rem 0;
+    text-align: center;
+    max-height: 2.5rem;
+    height: 2.5rem;
+}
+
+.cat-anime-ficha-title h4 {
+
+ color: black;
+ font-family: "Inter", sans-serif;
+ font-weight: bold;
+ font-size: 1.149rem;
+ overflow: hidden;
+ display: -webkit-box;
+ -webkit-line-clamp: 2;
+ line-clamp: 2;
+ -webkit-box-orient: vertical;
+
+}
+
+.cat-anime-img {
+    height: 17.125rem;
+    background-color: white;
+    margin-bottom: 0.6rem;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cat-anime-img img {
+    height: 17.125rem;
+    width: 11.813rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.cat-anime-desc {
+    text-align: center;
+}
+
+.cat-anime-desc textarea {
+    border-radius: 5px;
+    font-size: 1rem;
+    max-width: 10.813rem;
+}
+
+.cat-anime-votes {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+}
+
+.remove-indicate-btn {
+    font-weight: bold;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    margin: 0.4rem;
+    margin-bottom: 2rem;
+    background-color: #cacaca;
+    cursor: pointer;
+}
+
+.dark-screen {
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 8.625rem;
+    height: 10.5rem;
+    position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+
+
+.votes-number {
+    font-size: 2.776rem;
+    color: white;
+    margin: 0 auto;
+}
+
+.vote-btns {
+    margin: 0 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vote-menos, .vote-mais {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #F64949;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vote-mais {
+    background-color: #61B2FD;
+}
+
+.hide {
+    display: none;
+}

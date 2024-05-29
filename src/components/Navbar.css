@@ -1,0 +1,29 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.menu-bar {
+    display: flex;
+    list-style: none;
+    margin-left: 10vw;
+}
+
+.menu-bar li {
+    margin: 0.6rem 3rem 0.6rem 0;
+}
+
+.menu-bar li a {
+    color: #fff;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}

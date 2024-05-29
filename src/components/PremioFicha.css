@@ -1,0 +1,63 @@
+.vencedor-ficha {
+    background-color: rgba(0, 0, 0, 0.61);
+    width: 620px;
+    min-height: 464px;
+    margin: 66px 0;
+    padding: 20px;
+}
+
+.vencedor-ficha h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.68rem;
+    font-weight: bold;
+    color: #F46700;
+    text-shadow: -0.1rem -0.1rem #000, 0.1rem -0.1rem #000, -0.1rem 0.1rem #000, 0.1rem 0.1rem #000;
+}
+
+.v-ficha-pai {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    height: 370px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.149rem;
+    color: white;
+}
+
+.v-ficha-dados {
+    height: 17.134rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.v-ficha-img {
+    background-color: white;
+    width: 11.773rem;
+    height: 17.134rem;
+    border-radius: 0.688rem;
+}
+
+.v-ficha-img img {
+    width: 11.773rem;
+    height: 17.134rem;
+    object-fit: cover;
+    border-radius: 0.688rem;
+}
+
+.votos-qnt {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.votos-qnt span {
+    font-size: 2.776rem;
+}
+
+.v-ficha-pai h4 {
+    margin-top: 0.625rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1.628rem;
+}
