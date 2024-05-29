@@ -14,23 +14,23 @@ import Votes from './routes/Votes'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/criar-anime-awards/",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/criar-anime-awards/",
         element: <Categories />,
       },
       {
-        path: "/animes",
+        path: "/criar-anime-awards/animes",
         element: <Animes />,
       },
       {
-        path: "/winner",
+        path: "/criar-anime-awards/winner",
         element: <Winner />,
       },
       {
-        path: "/votes/:id",
+        path: "/criar-anime-awards/votes/:id",
         element: <Votes />,
       },
     ],

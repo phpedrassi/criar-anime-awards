@@ -64,7 +64,7 @@ const CategoryLabel = ({ meuId, meuNome, meusIndicados }) => {
 
             <div className='cat-edit'>
 
-                <Link to={`/votes/${meuId}`} className='link-edit'>
+                <Link to={`/criar-anime-awards/votes/${meuId}`} className='link-edit'>
                     <button className='btn-edit'><FaGear /></button>
                 </Link>
 

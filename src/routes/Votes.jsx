@@ -22,7 +22,7 @@ const Votes = () => {
     <div className='votes-screen-container'>
       <div className="votes-screen-header">
         <h2>{categoria.nome_da_categoria}</h2>
-        <button><NavLink to="/animes" className={({ isActive }) => (isActive ? "active" : "")}><FaClipboard /> ADICIONAR...</NavLink>
+        <button><NavLink to="/criar-anime-awards/animes" className={({ isActive }) => (isActive ? "active" : "")}><FaClipboard /> ADICIONAR...</NavLink>
 
         </button>
       </div>
