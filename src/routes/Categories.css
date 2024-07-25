@@ -23,7 +23,7 @@
     margin-top: 7rem;
 }
 
-.categories-container li{
+.categories-container li {
     list-style: none;
 }
 
@@ -42,4 +42,29 @@
 .plus {
     font-size: 4rem;
     font-weight: 200;
+}
+
+
+@media(max-width: 790px) {
+    .home-container {
+        margin-top: 5rem;
+    }
+
+    .home-head h2 {
+        font-size: 1.7rem;
+    }
+
+    .categories-container {
+        margin-top: 2rem;
+    }
+
+    .btn-cat-novo {
+        height: 3rem;
+        font-size: 1.4rem;
+        padding: 0 1rem;
+    }
+
+    .plus {
+        font-size: 2rem;
+    }
 }

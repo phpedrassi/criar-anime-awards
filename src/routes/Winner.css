@@ -32,3 +32,20 @@
     font-size: 2rem;
     color: #b9b9b9;
 }
+
+@media(max-width: 790px) {
+
+    .winner-container-title {
+        font-size: 2rem;
+        font-weight: 700;
+        text-shadow: -0.1rem -0.1rem 0 #00c999, 0.1rem -0.1rem 0 #00c999, -0.1rem 0.1rem 0 #00c999, 0.1rem 0.1rem 0 #00c999;
+        margin-top: 15vh;
+        margin-bottom: 15px;
+    }
+    
+    .winner-container-falta {
+        font-size: 2rem;
+        margin-top: 20vh;
+    }
+
+}

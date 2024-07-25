@@ -15,6 +15,17 @@ const awardReducer = (state, action) => {
                 indicados: []
             }];
 
+        case 'LoadCats':
+            let newCats = action.payload
+
+            newCats.map((itemNewCats, indexCats) => {
+                state.map((itemState) => {
+                    itemNewCats.id_cat === itemState.id_cat && newCats.splice(indexCats, 1)
+                })
+            })
+
+            return [...state, ...newCats]
+
 
 
 

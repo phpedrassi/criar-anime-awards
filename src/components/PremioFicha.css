@@ -33,7 +33,7 @@
 }
 
 .v-ficha-img {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.192);
     width: 11.773rem;
     height: 17.134rem;
     border-radius: 0.688rem;
@@ -60,4 +60,41 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 1.628rem;
+}
+
+@media(max-width: 790px) {
+
+    .vencedor-ficha {
+        width: 90vw;
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .vencedor-ficha h2 {
+        font-size: 1.5rem;
+    }
+
+    .v-ficha-pai {
+        display: block;
+        height: 100%;
+        font-size: 0.9rem;
+    }
+
+    .v-ficha-dados {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .votos-qnt {
+        margin-bottom: 1.5rem;
+    }
+    
+    .votos-qnt span {
+        font-size: 2rem;
+    }
+    
+    .v-ficha-pai h4 {
+        margin-top: 0.625rem;
+        font-size: 1.4rem;
+    }
 }

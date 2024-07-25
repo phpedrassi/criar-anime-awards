@@ -13,6 +13,7 @@ const MouseWindow = ({ x, y, closeContextMenu, indicTitle, indicImg }) => {
   useOnClickOutside(contextMenuRef, closeContextMenu)
 
 
+
   const createIndicate = (e, catId) => {
     e.preventDefault()
     dispatch({ type: "NewIndic", payload: { catId, indicTitle, indicImg } })
@@ -25,7 +26,7 @@ const MouseWindow = ({ x, y, closeContextMenu, indicTitle, indicImg }) => {
   }
 
   return (
-    <div className='mouse-window-container absolute' style={{ top: `${y}px`, left: `${x}px` }} ref={contextMenuRef}>
+    <div className='mouse-window-container absolute' style={{ top: `${y > window.innerHeight - 220 ? y - 440 : y}px`, left: `${x > window.innerWidth - 200 ? x - 400 : x}px` }} ref={contextMenuRef}>
       <p>Adicionar ao...</p>
       <ul className="mouse-window-list">
         {awardState && awardState.map((item) => (

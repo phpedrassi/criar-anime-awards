@@ -1,4 +1,4 @@
-import { FaChevronUp, FaChevronDown, FaTrashAlt } from 'react-icons/fa';
+import { FaChevronUp, FaChevronDown, FaTrashAlt} from 'react-icons/fa';
 import { FaGear } from "react-icons/fa6";
 
 import { useContext, useState } from 'react'

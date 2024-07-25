@@ -79,3 +79,49 @@
 .btn-edit svg, .btn-delete svg {
     font-size: 1.3rem;
 }
+
+
+
+
+@media(max-width: 790px) {
+    .stripe{
+        height: 3rem;
+    }
+
+    .cat-title {
+        margin-left: 1.5rem;
+    }
+
+    .cat-title h3 {
+        font-size: 1.4rem;
+        color: #a84804;
+    }
+
+    .cat-title input {
+        font-size: 1.4rem;
+    }
+
+    .cat-move {
+        display: none;
+    }
+
+    .cat-edit {
+        flex-wrap: nowrap;
+        width: 100px;
+    }
+
+    .btn-edit, .btn-delete {
+        height: 100%;
+        width: 100%;
+    }
+
+    .link-edit {
+        height: 100%;
+    }
+
+    .btn-edit svg, .btn-delete svg {
+        font-size: 1rem;
+    }
+
+    
+}

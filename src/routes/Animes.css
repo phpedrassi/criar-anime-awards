@@ -79,3 +79,38 @@
 .filtro-bar label {
     margin-left: 5rem;
 }
+
+@media(max-width: 790px) {
+    .filter-container {
+        max-width: 100%;
+        margin-top: 3rem;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .filter-form {
+        display: flex;
+        justify-content: center;
+        padding: 0 17px;
+    }
+
+    .filter-form label {
+        margin: 0.2rem 0;
+    }
+
+    .filtro-bar {
+        justify-content: center;
+    }
+
+    .filter-form select, .filter-form option {
+        font-size: 0.8rem;
+    }
+
+    .filtro-bar label {
+        margin-left: 2vw;
+    }
+
+    .search-form input {
+        font-size: 0.8rem;
+    }
+}
